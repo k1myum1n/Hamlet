@@ -1,0 +1,29 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    width: 320px;
+}
+.roulette_bar{
+    width: 50px;
+
+}
+
+.container{
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.roulette_main{
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform :rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

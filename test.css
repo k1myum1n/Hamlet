@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    border: px solid gray;
+    width: 320px;
+    align-items: center;
+
+}
+
+h1{
+    color: white;
+    margin: 0 auto;
+}
+.main{
+    width: 320px;
+    height: auto;
+}
+
+/*
+.main-wrapper{
+    display: flex;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    align-items: center;
+}
+*/
+
+button{
+    border: none;
+    background-color: white;
+    align-items: center;
+    width: 320px;
+}
+
+img{
+    width: 260px;
+}
